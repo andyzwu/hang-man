@@ -11,7 +11,7 @@ var app = {
 
 function startGame() {
   
-  app.currentWord = wordList[0];
+  app.currentWord = app.wordList[0];
   
   console.log('the word is: ', app.currentWord);
   
