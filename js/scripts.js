@@ -11,7 +11,7 @@ var app = {
 };
 
 function randomNumber() {
-  let number = Math.floor(Math.random() * app.wordList.length);
+  let number = Math.floor(Math.random() * (app.wordList.length -1));
 
   return number;
 }
@@ -26,7 +26,9 @@ function startGame() {
   
   console.log('the word is: ', app.currentWord);
   
-  //TO DO: output the word on screen
+  document.getElementById("randomWord").innerText = app.currentWord;
+
+  // TODO: HIDE
 
 }
 
