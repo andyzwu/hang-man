@@ -1,0 +1,57 @@
+h1 {
+    font-family: Arial;
+    color: blue;
+}
+button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#answerOutput {
+    font-size: 50px;
+} 
+
+#livesOutput {
+    font-size: 50px;
+}
+
+#losingScreen {
+    font-size: 50px;
+}
+
+#winningScreen {
+    font-size: 50px;
+}
+
+button:disabled,
+button[disabled]{
+    background-color: gray;
+}
+
+.answerblock {
+    background-color:gray;
+    display: inline-block;
+}
+
+.answerblockletter {
+    background-color:skyblue;
+    display: inline-block;
+}
+
+.answerblockunderscore {
+    background-color:gray;
+    display: inline-block;
+}
+
+.answerblockvowel {
+    background-color: green;
+    display: inline-block;
+}
+
+span {
+    border-spacing: 5px;
+}

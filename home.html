@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
 
   <title>The Hangman Game</title>
@@ -15,16 +16,51 @@
 <body>
   <h1>Welcome to the The Hangman Game</h1>
   
-  <!-- TODO: Add a start game button //-->
-  
-<p>button</p>
 
-<button onclick="startGame()">Play</button>
+<button onclick="startGame()">Play / Restart</button>
 
-<button>A</button> <button>B</button>
+<br><br>
 
-<div id="randomWord"></div>
+<div id="answerOutput">
+</div>
+<br>
+<div id="livesOutput"></div>
+<br>
+<div id="losingScreen"></div>
+<div id="winningScreen"></div>
+<br><br>
 
-  <script src="js/scripts.js"></script>  
+<button id="AButton" onclick="letterLogic('A')">A</button> 
+<button id="BButton" onclick="letterLogic('B')">B</button>
+<button id="CButton" onclick="letterLogic('C')">C</button> 
+<button id="DButton" onclick="letterLogic('D')">D</button>
+<button id="EButton" onclick="letterLogic('E')">E</button> 
+<br>
+<button id="FButton" onclick="letterLogic('F')">F</button>
+<button id="GButton" onclick="letterLogic('G')">G</button> 
+<button id="HButton" onclick="letterLogic('H')">H</button>
+<button id="IButton" onclick="letterLogic('I')">I</button> 
+<button id="JButton" onclick="letterLogic('J')">J</button>
+<br>
+<button id="KButton" onclick="letterLogic('K')">K</button> 
+<button id="LButton" onclick="letterLogic('L')">L</button> 
+<button id="MButton" onclick="letterLogic('M')">M</button>
+<button id="NButton" onclick="letterLogic('N')">N</button> 
+<button id="OButton" onclick="letterLogic('O')">O</button>
+<button id="PButton" onclick="letterLogic('P')">P</button>
+<br> 
+<button id="QButton" onclick="letterLogic('Q')">Q</button>
+<button id="RButton" onclick="letterLogic('R')">R</button> 
+<button id="SButton" onclick="letterLogic('S')">S</button>
+<button id="TButton" onclick="letterLogic('T')">T</button>
+<button id="UButton" onclick="letterLogic('U')">U</button>
+<br> 
+<button id="VButton" onclick="letterLogic('V')">V</button>
+<button id="WButton" onclick="letterLogic('W')">W</button> 
+<button id="XButton" onclick="letterLogic('X')">X</button>
+<button id="YButton" onclick="letterLogic('Y')">Y</button>  
+<button id="ZButton" onclick="letterLogic('Z')">Z</button>  
+
+<script src="js/scripts.js"></script> 
 </body>
 </html>
